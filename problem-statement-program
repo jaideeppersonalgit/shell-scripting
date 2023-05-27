@@ -1,0 +1,99 @@
+shell questions to write program about File Handling:
+===============================
+Certainly! Here are a few example questions related to file handling in shell scripting:
+
+Write a shell script that takes a file name as input and checks if the file exists. If the file exists, display its contents; otherwise, print an error message.
+
+Create a shell script that reads a file containing a list of names, with each name on a separate line. The script should count the number of names in the file and display the result.
+
+Write a shell script that takes a directory path as input and lists all files and directories within that directory. Include the file size and permissions in the output.
+
+Create a shell script that reads a file and finds the longest line in the file. Display the line number and content of the longest line.
+
+Write a shell script that takes a directory path and file extension as inputs. The script should search for all files with the given extension within the directory and display their names and sizes.
+
+Create a shell script that prompts the user to enter a file name and a search term. The script should search for the term in the file and display all matching lines, along with the line number.
+
+Write a shell script that takes a file name and a new extension as inputs. The script should rename the file by changing its extension to the new one.
+
+Create a shell script that copies the contents of one file to another file. Prompt the user to enter the source file and destination file names.
+
+=============================
+shell questions to write program about "Text Processing:"
+==============================
+Write a shell script that takes a text file as input and counts the number of occurrences of a specific word in the file. Display the total count at the end.
+
+Create a shell script that reads a file containing a list of email addresses. The script should extract the domain name from each email address and display the unique domain names in alphabetical order.
+
+Write a shell script that prompts the user to enter a sentence. The script should count the number of words in the sentence and display the result.
+
+Create a shell script that reads a file and replaces all occurrences of a specific word with a different word. Prompt the user to enter the source file, the word to be replaced, and the replacement word.
+
+Write a shell script that reads a file and prints only the lines that contain a specific pattern. Prompt the user to enter the source file and the pattern to search for.
+
+Create a shell script that takes a file name as input and sorts the lines in alphabetical order. Save the sorted lines to a new file.
+
+Write a shell script that reads a file containing a list of names and displays the names in reverse order.
+
+Create a shell script that prompts the user to enter a sentence and converts it to uppercase. Display the modified sentence.
+
+================================
+shell questions to write program about "Functions and Script Modularity:"
+================================
+Write a shell script that defines a function to calculate the factorial of a given number. Prompt the user to enter a number, and display its factorial using the defined function.
+
+Create a shell script that contains a function to check if a given number is prime. Prompt the user to enter a number, and use the function to determine if it is prime or not.
+
+Write a shell script that defines a function to find the maximum value among three numbers. Prompt the user to enter three numbers, and display the maximum value using the defined function.
+
+Create a shell script that contains a function to check if a given string is a palindrome. Prompt the user to enter a string, and use the function to determine if it is a palindrome or not.
+
+Write a shell script that defines a function to calculate the sum of all numbers in an array. The script should prompt the user to enter the array elements and display the sum using the defined function.
+
+Create a shell script that contains a function to convert a temperature from Celsius to Fahrenheit. Prompt the user to enter a temperature in Celsius, and use the function to convert it to Fahrenheit.
+
+Write a shell script that defines a function to validate a password based on certain criteria (e.g., minimum length, presence of special characters). Prompt the user to enter a password, and use the function to determine if it is valid or not.
+
+Create a shell script that contains a function to generate a random password of a specified length. Prompt the user to enter the desired password length, and display the generated password using the defined function.
+
+==============================
+shell questions to write program about  "Control Structures:" 
+for loop while loop if else 
+=============================
+Write a shell script that prompts the user to enter a number and checks if it is positive, negative, or zero. Display an appropriate message based on the input.
+
+Create a shell script that prints all even numbers from 1 to 100 using a loop construct.
+
+Write a shell script that takes a number as input and calculates the sum of all numbers from 1 to that input number using a loop.
+
+Create a shell script that prompts the user to enter a password and checks if it meets certain criteria (e.g., minimum length, presence of special characters). Display a success message if the password is valid; otherwise, prompt the user to enter a valid password.
+
+Write a shell script that reads a file containing a list of numbers. Use a loop to calculate the average of the numbers and display the result.
+
+Create a shell script that prompts the user to enter a number and checks if it is a prime number using a loop and conditional statements. Display an appropriate message based on the input.
+
+Write a shell script that takes a directory path as input and recursively lists all files and directories within that directory using a loop construct.
+
+Create a shell script that prints the Fibonacci series up to a given number using a loop construct.
+
+
+=============================
+shell questions to write program about  "Error Handling and Debugging:"
+=============================
+Write a shell script that prompts the user to enter a file name and displays its contents. Implement error handling to gracefully handle cases where the file does not exist or cannot be read.
+
+Create a shell script that performs a division operation between two numbers provided by the user. Implement error handling to handle cases where the divisor is zero or the input is not a valid number.
+
+Write a shell script that takes a directory path as input and lists all files and directories within that directory. Implement error handling to display an error message if the specified directory does not exist or cannot be accessed.
+
+Create a shell script that copies a file from one location to another. Implement error handling to handle cases where the source file does not exist or cannot be read, and when the destination directory does not exist or cannot be written to.
+
+Write a shell script that prompts the user to enter a number and calculates its square root. Implement error handling to handle cases where the input is negative or not a valid number.
+
+Create a shell script that reads a file and performs a specific operation on its contents. Implement error handling to display an error message if the file is empty or cannot be read.
+
+Write a shell script that checks if a required command or tool is installed on the system. Implement error handling to display an error message if the command is not found or cannot be executed.
+
+Create a shell script that prompts the user to enter a file name and converts its contents to uppercase. Implement error handling to handle cases where the file does not exist or cannot be read.
+
+These questions provide opportunities to practice implementing error handling mechanisms, such as checking file existence, handling division by zero, validating user input, and handling command execution errors. By incorporating error handling into your shell scripts, you can enhance their robustness and provide better feedback to users. Feel free to modify and expand upon these questions to suit your specific needs and practice error handling and debugging effectively in your shell scripting projects.

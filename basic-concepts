@@ -1,0 +1,130 @@
+Youtube url: https://www.youtube.com/watch?v=e7BufAVwDiM&t=2762s
+
+write down the shell script programs for every concept with explanation
+
+
+Certainly! Here are some examples of shell script programs that demonstrate different concepts, along with explanations:
+
+Command Line Arguments:
+bash
+Copy code
+#!/bin/bash
+echo "The first argument is: $1"
+echo "The second argument is: $2"
+This script displays the first and second command line arguments passed to it when executed.
+
+Loops:
+For Loop:
+bash
+Copy code
+#!/bin/bash
+for i in {1..5}; do
+  echo $i
+done
+This script prints the numbers from 1 to 5 using a for loop.
+
+While Loop:
+bash
+Copy code
+#!/bin/bash
+counter=1
+while [ $counter -le 5 ]; do
+  echo $counter
+  counter=$((counter + 1))
+done
+This script prints the numbers from 1 to 5 using a while loop.
+
+Until Loop:
+bash
+Copy code
+#!/bin/bash
+counter=1
+until [ $counter -gt 5 ]; do
+  echo $counter
+  counter=$((counter + 1))
+done
+This script prints the numbers from 1 to 5 using an until loop.
+
+Reading from a File:
+bash
+Copy code
+#!/bin/bash
+file="/path/to/file.txt"
+while IFS= read -r line; do
+  echo "Line: $line"
+done < "$file"
+This script reads each line from a file and echoes it.
+
+Process Substitution:
+bash
+Copy code
+#!/bin/bash
+sort -r <(cat file.txt)
+This script uses process substitution to sort the lines of a file in reverse order.
+
+Error Handling:
+bash
+Copy code
+#!/bin/bash
+set -e
+trap 'echo "Error occurred"; exit 1' ERR
+# Script commands
+This script enables the -e option to exit the script on any error and uses the trap command to catch errors and display a message before exiting.
+
+Environment Variables:
+bash
+Copy code
+#!/bin/bash
+echo "Home directory: $HOME"
+echo "Username: $USER"
+This script displays the home directory and username of the current user using environment variables.
+
+Quoting:
+bash
+Copy code
+#!/bin/bash
+variable="World"
+echo 'Hello $variable'   # Output: Hello $variable
+echo "Hello $variable"   # Output: Hello World
+echo "Today is $(date)"  # Output: Today is [current date and time]
+This script demonstrates the use of single quotes, double quotes, and command substitution.
+
+User Input:
+bash
+Copy code
+#!/bin/bash
+echo "Enter your name:"
+read name
+echo "Hello, $name!"
+This script prompts the user to enter their name and then displays a greeting using the entered name.
+
+File Existence Check:
+bash
+Copy code
+#!/bin/bash
+file="/path/to/file.txt"
+if [ -e "$file" ]; then
+  echo "File exists"
+else
+  echo "File does not exist"
+fi
+This script checks if a file exists and displays a message accordingly.
+
+String Manipulation:
+bash
+Copy code
+#!/bin/bash
+name="John"
+greeting="Hello, "$name"!"
+echo $greeting   # Output: Hello, John!
+string="Hello, World!"
+echo ${string:0:5}   # Output: Hello
+string="Hello"
+echo ${#string}   # Output: 5
+string="Hello, World!"
+if [[ $string =~ ^H.*d!$ ]]; then
+  echo "Matches pattern"
+fi
+This script demonstrates various string manipulation techniques like concatenation, substring extraction, length calculation, and pattern matching.
+
+These examples provide a starting point for understanding different concepts in shell scripting. You can modify and expand upon them based on your specific requirements.

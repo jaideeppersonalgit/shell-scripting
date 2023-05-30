@@ -3,12 +3,16 @@ shell questions to write program about File Handling:
 Certainly! Here are a few example questions related to file handling in shell scripting:
 
 Write a shell script that takes a file name as input and checks if the file exists. If the file exists, display its contents; otherwise, print an error message.
+solution-filename.sh
 
 Create a shell script that reads a file containing a list of names, with each name on a separate line. The script should count the number of names in the file and display the result.
+solution-count.sh
 
 Write a shell script that takes a directory path as input and lists all files and directories within that directory. Include the file size and permissions in the output.
+solution-directory-input.sh
 
 Create a shell script that reads a file and finds the longest line in the file. Display the line number and content of the longest line.
+
 
 Write a shell script that takes a directory path and file extension as inputs. The script should search for all files with the given extension within the directory and display their names and sizes.
 
@@ -22,6 +26,8 @@ Create a shell script that copies the contents of one file to another file. Prom
 shell questions to write program about "Text Processing:"
 ==============================
 Write a shell script that takes a text file as input and counts the number of occurrences of a specific word in the file. Display the total count at the end.
+/text-processing/count.sh
+hello.txt
 
 Create a shell script that reads a file containing a list of email addresses. The script should extract the domain name from each email address and display the unique domain names in alphabetical order.
 
